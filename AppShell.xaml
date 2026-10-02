@@ -15,7 +15,11 @@
             Title="Lights"
             ContentTemplate="{DataTemplate local:Lights}"
             Route="Lights" />
-        
+        <ShellContent
+            Title="Calculator"
+            ContentTemplate="{DataTemplate local:LaskinPage}"
+            Route="LaskinPage" />
+
     </TabBar>
 
 </Shell>
